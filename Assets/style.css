@@ -1,0 +1,66 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #40505c;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+  }
+  
+  body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  /* Estilos adicionais usando Bootstrap */
+  
+  /* Estilos de botão */
+  .btn {
+    background-color: var(--azul);
+    color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: var(--laranja);
+    color: var(--branco);
+  }
+  
+  /* Estilos de cabeçalho */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fonte-secundario);
+    color: var(--azul);
+  }
+  
+  /* Estilos de link */
+  a {
+    color: var(--azul-degrade);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--azul);
+  }
+  
+  /* Estilos de formulário */
+  input[type="text"], input[type="email"], textarea {
+    border: 1px solid var(--cinza-claro);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: var(--preto);
+  }
+  
+  /* Outros estilos personalizados */
+  /* ... */
